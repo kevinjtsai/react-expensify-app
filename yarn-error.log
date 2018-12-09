@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/bin/yarn run test
+  /usr/local/bin/node /usr/local/bin/yarn run test --watch
 
 PATH: 
   /Users/kevintsai/.rvm/gems/ruby-2.3.3/bin:/Users/kevintsai/.rvm/gems/ruby-2.3.3@global/bin:/Users/kevintsai/.rvm/rubies/ruby-2.3.3/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/kevintsai/.rvm/gems/ruby-2.3.3/bin:/Users/kevintsai/.rvm/gems/ruby-2.3.3@global/bin:/Users/kevintsai/.rvm/rubies/ruby-2.3.3/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/Users/kevintsai/.rvm/bin
@@ -6944,7 +6944,7 @@ Trace:
   Error: Command failed.
   Exit code: 1
   Command: sh
-  Arguments: -c cross-env NODE_ENV=test jest --config=jest.config.json
+  Arguments: -c cross-env NODE_ENV=test jest --config=jest.config.json --watch
   Directory: /Users/kevintsai/Development/reactJS/udemyTutorial/expensify-app
   Output:
   
